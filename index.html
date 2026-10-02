@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>فروشگاه یاسر</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1 class="logo">فروشگاه یاسر</h1>
+    <nav>
+      <a href="#home">خانه</a>
+      <a href="#shop">فروشگاه</a>
+      <a href="#about">درباره ما</a>
+      <a href="#contact">تماس</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="home">
+      <h2>بهترین لوازم ورزشی</h2>
+      <a href="#shop" class="btn">خرید کنید</a>
+    </section>
+
+    <section id="shop">
+      <h2>محصولات</h2>
+      <div class="cards">
+        <div class="card">
+<img src="ball.jpeg" alt="توپ فوتبال">
+          <h3>توپ فوتبال</h3>
+          <p>۸۰۰,۰۰۰ تومان</p>
+<button class="add-btn" data-name="توپ فوتبال" data-price="800000">افزودن به سبد</button>
+        </div>
+        <div class="card">
+<img src="shirt.jpeg" alt="لباس ورزشی">
+          <h3>لباس ورزشی</h3>
+          <p>۱,۰۰۰,۰۰۰ تومان</p>
+<button class="add-btn" data-name="لباس ورزشی" data-price="1000000">افزودن به سبد</button>
+        </div>
+        <div class="card">
+<img src="shoes.jpeg" alt="کفش ورزشی">
+          <h3>کفش ورزشی</h3>
+          <p>۲,۵۰۰,۰۰۰ تومان</p>
+<button class="add-btn" data-name="کفش ورزشی" data-price="2500000">افزودن به سبد</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>درباره ما</h2>
+      <p>فروشگاه یاسر بهترین لوازم ورزشی را با قیمت مناسب ارائه می‌دهد.</p>
+    </section>
+
+    <section id="contact">
+      <h2>تماس با ما</h2>
+      <p>شماره تماس: ۰۹۹۴۰۴۰۸۵۲۲</p>
+    </section>
+<section id="cart">
+  <h2>سبد خرید</h2>
+  <ul id="cart-items"></ul>
+  <p>جمع کل: <span id="cart-total">۰</span> تومان</p>
+</section>
+
+<a href="#cart" class="cart-link">سبد خرید (<span id="cart-count">۰</span>)</a>
+  </main>
+<script src="script.js"></script>
+</body>
+</html>

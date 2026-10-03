@@ -1,4 +1,4 @@
-const TELEGRAM_ID = "your_id"; //yaser11b
+const TELEGRAM_ID = "yaser11b"; //
 
 let cart = [];
 
